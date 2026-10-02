@@ -1,0 +1,17 @@
+{
+  "name": "apilot",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Tiny REST API for saving and tagging bookmarks",
+  "main": "src/index.js",
+  "engines": { "node": ">=18.11" },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo no tests yet"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
